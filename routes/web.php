@@ -26,4 +26,10 @@ Route::get('/hello', function () {
     return view('portfolio');
    });
 
+   Route::get('/contact', function () {
+    return view('contact');
+   });
+   Route::get('/dashboard', function () {
+    return view('dashboard');
+   });
    
